@@ -1,0 +1,15 @@
+<div class="container">
+  <h1 class="title">{{ title }}</h1>
+  <input [(ngModel)]="newWord" placeholder="Enter a Word" (input)="resetSearchResult()"/>
+  <button (click)="addWord()">Add Word</button>
+  <button (click)="removeWord()">Remove Word</button>
+  <button (click)="searchWord()">Search</button>
+
+  <div [@fadeInOut]>
+    <canvas #canvas width="600" height="300"></canvas>
+  </div>
+
+  <p *ngIf="searchResult !== null">
+    {{ newWord }} {{ searchResult ? 'exists in this table' : 'doesn\'t exist in this table' }}.
+  </p>
+</div>
