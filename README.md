@@ -4,14 +4,19 @@ This project provides an interactive visualization of a hash table data structur
 Features
 
 Add Word: Insert a word into the hash table.
+
 Remove Word: Delete a word from the hash table.
+
 Search Word: Check if a word exists in the hash table.
+
 Visualization: Visual representation of the hash table and linked lists on a canvas, with color-coded cells.
 
 Technologies Used
 
 Angular: Framework for building the user interface and managing application logic.
+
 TypeScript: Programming language used for developing the application.
+
 HTML5 Canvas: Used for drawing and visualizing the hash table.
 
 Project Structure
